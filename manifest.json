@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "My Edit Saver",
+	"version": "1.0",
+	"description": "Saves your edits on a webpage",
+	"permissions": ["storage", "activeTab"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	}
+}

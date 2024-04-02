@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	height: 125px;
+	width: 200px;
+}
+.vertically-aligned-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 5px;
+}
