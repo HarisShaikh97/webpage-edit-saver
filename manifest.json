@@ -3,7 +3,13 @@
 	"name": "My Edit Saver",
 	"version": "1.0",
 	"description": "Saves your edits on a webpage",
-	"permissions": ["storage", "activeTab"],
+	"permissions": ["storage", "tabs", "activeTab"],
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
 	"background": {
 		"service_worker": "background.js"
 	},
