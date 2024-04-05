@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "My Edit Saver",
+	"name": "R&R Solution",
 	"version": "1.0",
 	"description": "Saves your edits on a webpage",
 	"permissions": ["storage", "tabs", "activeTab"],
